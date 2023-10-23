@@ -1,0 +1,95 @@
+main{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h4{
+    margin: 0px;
+}
+input{
+    border: none;
+    border-radius: 6px;
+}
+
+.login-form{
+    margin: auto;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: lightgray;
+}
+
+.login-form{
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.login-header{
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: black;
+    color: lightgray;
+}
+
+.login-main{
+    padding: 10px 10px 10px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: lightgrey;
+}
+
+.login-btn{
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo{
+    color: whitesmoke !important;
+}
+
+.sidebar{
+    background-color: black;
+    width: 150px;
+    height: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    transition: .5s;
+}
+
+.sidebar-item{
+    width: 150px;
+    height: 50px;
+}
+
+.sidebar-icon{ 
+    color: gray;
+    width: 50px;
+    height: 50px;
+}
+
+
+.sidebar-content{
+    color: gray;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+ul li a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    #my-side-bar {width: 50px;}
+    main {margin-left: 60px; transition: .5s;}
+}
+
+@media screen and (min-width: 600px){
+    #my-side-bar {width: 150px !important;}
+    main {margin-left: 160px; transition: .5s;}
+}
