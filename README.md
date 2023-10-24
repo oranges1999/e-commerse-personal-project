@@ -5,4 +5,4 @@
 - Guest Accound:
     Username: nhuhuy1999
     Password: 123
-- Use XAMPP to create a server and run on localhost.
+- Use XAMPP or MAMPP to create a server and run on localhost.
